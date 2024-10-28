@@ -13,3 +13,4 @@ To use the `scorpion` program, provide one or more image files as arguments.
 ### Spider Command
 ```bash
 python spider.py [-r] [-l N] [-p PATH] URL
+python scorpion.py FILE1 [FILE2 ...]

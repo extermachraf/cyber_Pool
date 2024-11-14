@@ -24,6 +24,7 @@ reverse:
 	@echo "Usage: make reverse KEY=<your-key-here>"
 	@echo "Example: make reverse KEY=your_generated_key"
 
+
 reverse_run:
 	$(PYTHON) $(SCRIPT) --reverse $(KEY)
 
